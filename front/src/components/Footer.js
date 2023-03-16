@@ -8,7 +8,7 @@ function Footer() {
         <li><a href="#">Terms of Use</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
-      <p>&copy; 2023 My Website</p>
+      <p>&copy; 2023 Team Mache</p>
     </footer>
   );
 }

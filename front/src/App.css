@@ -27,22 +27,28 @@ nav a {
 
 /* Banner Styles */
 .banner {
-  background-image: url('https://dummyimage.com/800x400/000/fff');
+  background-image: url('../public/mache1.jpg');
   background-size: cover;
   background-position: center center;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   padding: 100px 0;
 }
-
+.banner img{
+  background-color: rgba(255, 255, 255, 0.87);
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #ffffffa2, 0 0 2px 4px #ffffff4f;
+}
 .banner h1 {
   font-size: 48px;
   margin-bottom: 20px;
+  text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
 }
 
 .banner p {
   font-size: 24px;
   margin-bottom: 40px;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
 }
 
 .banner button {
